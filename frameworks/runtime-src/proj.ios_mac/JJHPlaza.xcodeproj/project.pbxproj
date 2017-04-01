@@ -61,6 +61,12 @@
 		9FFE00A01ACCF59E00D6E35A /* lua_debugger.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009B1ACCF59E00D6E35A /* lua_debugger.c */; };
 		9FFE00A11ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */; };
 		9FFE00A21ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */; };
+		B65DCF9F1E8F54E5003B308D /* Updater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCF9D1E8F54E5003B308D /* Updater.cpp */; };
+		B65DCFA01E8F54E5003B308D /* Updater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCF9D1E8F54E5003B308D /* Updater.cpp */; };
+		B65DCFA51E8F8AF0003B308D /* jjhgame_lua_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCFA11E8F8AF0003B308D /* jjhgame_lua_manual.cpp */; };
+		B65DCFA61E8F8AF0003B308D /* jjhgame_lua_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCFA11E8F8AF0003B308D /* jjhgame_lua_manual.cpp */; };
+		B65DCFA71E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCFA31E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp */; };
+		B65DCFA81E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65DCFA31E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp */; };
 		C03781B918BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BA18BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BB18BF655400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03781B818BF655400FE4F13 /* src */; };
@@ -226,6 +232,12 @@
 		9FFE009C1ACCF59E00D6E35A /* lua_debugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_debugger.h; sourceTree = "<group>"; };
 		9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuntimeLuaImpl.cpp; sourceTree = "<group>"; };
 		9FFE009E1ACCF59E00D6E35A /* RuntimeLuaImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeLuaImpl.h; sourceTree = "<group>"; };
+		B65DCF9D1E8F54E5003B308D /* Updater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Updater.cpp; path = ../Classes/Updater.cpp; sourceTree = "<group>"; };
+		B65DCF9E1E8F54E5003B308D /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Updater.h; path = ../Classes/Updater.h; sourceTree = "<group>"; };
+		B65DCFA11E8F8AF0003B308D /* jjhgame_lua_manual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jjhgame_lua_manual.cpp; path = ../Classes/jjhgame_lua_manual.cpp; sourceTree = "<group>"; };
+		B65DCFA21E8F8AF0003B308D /* jjhgame_lua_manual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jjhgame_lua_manual.h; path = ../Classes/jjhgame_lua_manual.h; sourceTree = "<group>"; };
+		B65DCFA31E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jjhgame_ui_luaexport_common.cpp; path = ../Classes/jjhgame_ui_luaexport_common.cpp; sourceTree = "<group>"; };
+		B65DCFA41E8F8AF0003B308D /* jjhgame_ui_luaexport_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jjhgame_ui_luaexport_common.h; path = ../Classes/jjhgame_ui_luaexport_common.h; sourceTree = "<group>"; };
 		C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_lua_bindings.xcodeproj; path = "../../cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj"; sourceTree = "<group>"; };
 		C03781B718BF655400FE4F13 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		C03781B818BF655400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
@@ -460,6 +472,12 @@
 				9FC7603E1A67791200D1E6E7 /* ide-support */,
 				15427CE2198F237300DC375D /* lua_module_register.h */,
 				F293BB7E15EB831F00256477 /* AppDelegate.cpp */,
+				B65DCF9D1E8F54E5003B308D /* Updater.cpp */,
+				B65DCF9E1E8F54E5003B308D /* Updater.h */,
+				B65DCFA11E8F8AF0003B308D /* jjhgame_lua_manual.cpp */,
+				B65DCFA21E8F8AF0003B308D /* jjhgame_lua_manual.h */,
+				B65DCFA31E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp */,
+				B65DCFA41E8F8AF0003B308D /* jjhgame_ui_luaexport_common.h */,
 				F293BB7F15EB831F00256477 /* AppDelegate.h */,
 			);
 			name = Classes;
@@ -528,6 +546,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					F293B3C715EB7BE500256477 = {
+						DevelopmentTeam = KAJCA96Y72;
+					};
+				};
 			};
 			buildConfigurationList = F293B3C215EB7BE500256477 /* Build configuration list for PBXProject "JJHPlaza" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -677,8 +700,11 @@
 				C07828FA18B4D72E00BD2287 /* SimulatorApp.mm in Sources */,
 				9FFE00A01ACCF59E00D6E35A /* lua_debugger.c in Sources */,
 				5023813317EBBCE400990C9B /* AppDelegate.cpp in Sources */,
+				B65DCFA61E8F8AF0003B308D /* jjhgame_lua_manual.cpp in Sources */,
 				9FF504851A5E87B100AFDA55 /* ConsoleWindowController.m in Sources */,
 				C07828F818B4D72E00BD2287 /* main.m in Sources */,
+				B65DCFA81E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp in Sources */,
+				B65DCFA01E8F54E5003B308D /* Updater.cpp in Sources */,
 				9FFE00A21ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,9 +714,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC760451A677A4A00D1E6E7 /* SimpleConfigParser.cpp in Sources */,
+				B65DCF9F1E8F54E5003B308D /* Updater.cpp in Sources */,
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
+				B65DCFA51E8F8AF0003B308D /* jjhgame_lua_manual.cpp in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
 				9FFE009F1ACCF59E00D6E35A /* lua_debugger.c in Sources */,
+				B65DCFA71E8F8AF0003B308D /* jjhgame_ui_luaexport_common.cpp in Sources */,
 				5023812417EBBCAC00990C9B /* main.m in Sources */,
 				9FFE00A11ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */,
 				5023811817EBBCAC00990C9B /* AppController.mm in Sources */,
@@ -877,6 +906,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = KAJCA96Y72;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -889,6 +919,9 @@
 					"$(SRCROOT)/../Classes/protobuf-lite",
 					"$(SRCROOT)/../Classes",
 					"$(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib",
+					"$(SRCROOT)/../../cocos2d-x/external/curl/include/ios",
+					"$(SRCROOT)/../../cocos2d-x/external",
+					"$(SRCROOT)/../../cocos2d-x/cocos/platform",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -918,6 +951,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = KAJCA96Y72;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -929,6 +963,9 @@
 					"$(SRCROOT)/../Classes/protobuf-lite",
 					"$(SRCROOT)/../Classes",
 					"$(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib",
+					"$(SRCROOT)/../../cocos2d-x/external/curl/include/ios",
+					"$(SRCROOT)/../../cocos2d-x/external",
+					"$(SRCROOT)/../../cocos2d-x/cocos/platform",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
