@@ -6,6 +6,7 @@ cc.FileUtils:getInstance():addSearchPath("res/ui/")
 
 require "config"
 require "cocos.init"
+require "launch"
 
 local function main()
     require("app.MyApp"):create():run()
