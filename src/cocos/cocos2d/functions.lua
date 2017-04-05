@@ -236,8 +236,10 @@ function class(classname, ...)
         end
         setmetatableindex(instance, cls)
         instance.class = cls
-        instance:ctor(...)
-        return instance
+        -- instance:ctor(...)
+        -- return instance
+        local newInstance = instance:ctor(...)
+        return (newInstance~=nil and newInstance or instance)
     end
     cls.create = function(_, ...)
         return cls.new(...)

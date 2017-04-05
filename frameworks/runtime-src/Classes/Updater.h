@@ -127,7 +127,7 @@ public:
     bool removeDirectory(const char* path);
     const char* getUpdateInfo(const char* url);
     
-    /* An entry of a new thresd. */
+    /* An entry of a new thread. */
     friend void* updateThreadFunc(void*);
     
     friend int downloadProgressFunc(void *, double, double, double, double);

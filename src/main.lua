@@ -9,7 +9,15 @@ require "cocos.init"
 require "launch"
 
 local function main()
-    require("app.MyApp"):create():run()
+    -- require("app.MyApp"):create():run()
+     local sceneGame = CCScene:create()
+        print("------》1")
+        local layer = require("app.views.ui_template"):new()
+        print(tolua.type(layer))
+        -- local layer = tolua.cast(node,"cc.Node")
+        -- print((layer))
+        sceneGame:addChild(layer)
+        CCDirector:getInstance():runWithScene(sceneGame)
 end
 
 local status, msg = xpcall(main, __G__TRACKBACK__)

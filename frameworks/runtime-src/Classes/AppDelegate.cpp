@@ -5,6 +5,8 @@
 #include "lua_module_register.h"
 #include "jjhgame_lua_manual.h"
 
+#include "auto/lua_jjhgame_updater_auto.hpp"
+
 #if (CC_TARGET_PLATFORM != CC_PLATFORM_LINUX)
 #include "ide-support/CodeIDESupport.h"
 #endif
@@ -72,6 +74,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
     register_all_jjhgame_manual(L);
+//    register_all_jjhgame_updater(L);
 
 #if (COCOS2D_DEBUG > 0) && (CC_CODE_IDE_DEBUG_SUPPORT > 0)
     // NOTE:Please don't remove this call if you want to debug with Cocos Code IDE
